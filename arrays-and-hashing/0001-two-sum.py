@@ -17,8 +17,6 @@
     # Time: O(n)
     # Size: O(n)
 
-
-
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # Create empty dictionary
