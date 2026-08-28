@@ -12,8 +12,8 @@
     # their frequency by incrementing the value in the K/V pair.   
 
 # Complexity:
-    # Time: 
-    # Size:
+    # Time: O(n)
+    # Size: O(n)
 
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
@@ -31,16 +31,20 @@ class Solution:
                 # Increment value by 1 to count repeated letters
                 seenLetters_S[s[letter]] += 1
             else:
+                # If letter is not in seenLetters, add and set count to 1
                 seenLetters_S[s[letter]] = 1
 
+        # For each letter in the string 't' starting with t[0]
         for letter in range(len(t)):
             # In each iteration, first check if letters in string 't' exists in seenLetters
             if t[letter] in seenLetters_T:
                 # Increment value by 1 to count repeated letters
                 seenLetters_T[t[letter]] += 1
             else:
+                # If letter is not in seenLetters, add and set count to 1
                 seenLetters_T[t[letter]] = 1
 
+        # Compare the two dictionaries. Return True if equal, False if not
         if seenLetters_S == seenLetters_T:
             return True
         else:
