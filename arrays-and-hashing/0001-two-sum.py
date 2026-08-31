@@ -19,14 +19,17 @@
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # Create empty dictionary
+        # Store each previously seen number and its index.
         seen = {}
 
-        # For 
+        # Loop through nums, getting both the index and number.
         for index, number in enumerate(nums):
+            # Calculate the number needed to reach the target.
             complement = target - number
 
-            if complement in seen: 
+            # If that number was previously seen, return both indices.
+            if complement in seen:
                 return [seen[complement], index]
 
-            seen [number] = index
+            # Store the current number as the key and its index as the value.
+            seen[number] = index
