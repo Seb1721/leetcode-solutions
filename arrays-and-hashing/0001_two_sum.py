@@ -1,3 +1,5 @@
+from typing import List
+
 # 8/27/26
 # Problem 1: Two Sum
 # Difficulty: Easy
@@ -33,3 +35,5 @@ class Solution:
 
             # Store the current number as the key and its index as the value.
             seen[number] = index
+
+        return []
