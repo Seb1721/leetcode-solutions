@@ -1,5 +1,7 @@
 from typing import List
 
+from typing import List
+
 # 8/27/26
 # Problem 1: Two Sum
 # Difficulty: Easy

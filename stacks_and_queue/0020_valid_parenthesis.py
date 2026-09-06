@@ -16,8 +16,8 @@
     # for the pop, return false. 
 
 # Complexity:
-    # Time:
-    # Size:
+    # Time: O(n)
+    # Size: O(n)
 
 class Solution:
     def isValid(self, s: str) -> bool:
