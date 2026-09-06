@@ -1,7 +1,5 @@
 from typing import List
 
-from typing import List
-
 # 8/27/26
 # Problem 1: Two Sum
 # Difficulty: Easy
@@ -26,12 +24,12 @@ class Solution:
         # Store each previously seen number and its index.
         seen = {}
 
-        # Loop through nums, getting both the index and number.
+        # Loop through the tuple created by index and numbers. for (x,y) in z:
         for index, number in enumerate(nums):
-            # Calculate the number needed to reach the target.
+            # Calculate the complement of each number
             complement = target - number
 
-            # If that number was previously seen, return both indices.
+            # If the complement is in seen return 
             if complement in seen:
                 return [seen[complement], index]
 
