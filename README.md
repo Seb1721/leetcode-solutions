@@ -33,8 +33,8 @@ Each solution includes:
 
 | # | Problem | Difficulty | Topic | Solution |
 |---|---------|------------|-------|----------|
-| 1 | Two Sum | Easy | Arrays and Hashing | [Solution](arrays-and-hashing/0001_two_sum.py) |
-| 217 | Contains Duplicate | Easy | Arrays and Hashing | [Solution](arrays-and-hashing/0217_contains_duplicate.py) |
+| 1 | Two Sum | Easy | Arrays and Hashing | [Solution](arrays_and_hashing/0001_two_sum.py) |
+| 217 | Contains Duplicate | Easy | Arrays and Hashing | [Solution](arrays_and_hashing/0217_contains_duplicate.py) |
 
 ## Notes
 
