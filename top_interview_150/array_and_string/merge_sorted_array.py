@@ -1,5 +1,5 @@
 # 9/16/26
-# Problem: Merge Sorted Array
+# Problem 88: Merge Sorted Array
 # Difficulty: Easy
 
 # Instructions:
@@ -27,6 +27,7 @@ class Solution:
             nums1[m + j] = nums2[j]
 
         nums1.sort()
+
 # Testing
 if __name__ == "__main__":
     solution = Solution()
