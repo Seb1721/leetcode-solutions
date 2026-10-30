@@ -1,16 +1,8 @@
-# ======================================================================================
-# Problem Information
-# ======================================================================================
-# Date: 9/28/26
-# Problem Number: 26
-# Problem Name: Remove Duplicates from Sorted Array
+"""
+LeetCode 26: Remove Duplicates from Sorted Array
+# Date: 10/29/26
 # Difficulty: Easy
 
-
-# ======================================================================================
-# Instructions
-# ======================================================================================
-"""
 Given an integer array nums sorted in non-decreasing order, remove the duplicates in-
 place such that each unique element appears only once. The relative order of the
 elements should be kept the same.
@@ -22,20 +14,9 @@ The first k elements of nums should contain the unique numbers in sorted order. 
 remaining elements beyond index k - 1 can be ignored.
 """
 
-# ======================================================================================
 # Approach / Logic
-# ======================================================================================
-"""
 
-"""
-
-# ======================================================================================
 # Complexity
-# ======================================================================================
-"""
-Time: O()
-Space: O()
-"""
 
 # ======================================================================================
 # Solution
@@ -51,9 +32,4 @@ if __name__ == "__main__":
 
     # Add test cases here.
 
-# ======================================================================================
 # Notes
-# ======================================================================================
-"""
-
-"""
