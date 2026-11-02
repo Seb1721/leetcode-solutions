@@ -1,6 +1,6 @@
 """
-LeetCode 26: Remove Duplicates from Sorted Array
-# Date: 10/29/26
+LeetCode 26: Remove Duplicates from Sorted Array I
+# Date: 10/30/26
 # Difficulty: Easy
 
 Given an integer array nums sorted in non-decreasing order, remove the duplicates in-
